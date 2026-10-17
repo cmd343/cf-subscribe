@@ -1156,8 +1156,8 @@ proxy-groups:
   - name: "自动选择"
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 60
+    tolerance: 20
     proxies:
       - "CF优选1"
       - "CF优选2"
