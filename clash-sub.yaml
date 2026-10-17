@@ -1,0 +1,1331 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+  - name: "CF优选1"
+    type: vless
+    server: 172.64.150.170
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选2"
+    type: vless
+    server: 104.18.33.193
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选3"
+    type: vless
+    server: 172.64.159.230
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选4"
+    type: vless
+    server: 172.64.154.108
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选5"
+    type: vless
+    server: 172.64.148.103
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选6"
+    type: vless
+    server: 172.64.148.107
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选7"
+    type: vless
+    server: 172.64.144.180
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选8"
+    type: vless
+    server: 172.64.152.234
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选9"
+    type: vless
+    server: 172.64.145.227
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选10"
+    type: vless
+    server: 172.64.149.136
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选11"
+    type: vless
+    server: 104.18.40.166
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选12"
+    type: vless
+    server: 172.64.153.228
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选13"
+    type: vless
+    server: 172.64.150.2
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选14"
+    type: vless
+    server: 172.64.152.96
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选15"
+    type: vless
+    server: 172.64.157.176
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选16"
+    type: vless
+    server: 172.64.144.145
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选17"
+    type: vless
+    server: 172.64.153.206
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选18"
+    type: vless
+    server: 172.64.152.101
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选19"
+    type: vless
+    server: 104.18.35.68
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选20"
+    type: vless
+    server: 172.64.158.193
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选21"
+    type: vless
+    server: 104.18.40.45
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选22"
+    type: vless
+    server: 172.64.152.120
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选23"
+    type: vless
+    server: 104.18.38.133
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选24"
+    type: vless
+    server: 104.18.40.58
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选25"
+    type: vless
+    server: 104.18.45.86
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选26"
+    type: vless
+    server: 172.64.158.198
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选27"
+    type: vless
+    server: 104.18.41.140
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选28"
+    type: vless
+    server: 104.18.44.76
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选29"
+    type: vless
+    server: 172.64.144.69
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选30"
+    type: vless
+    server: 104.18.35.229
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选31"
+    type: vless
+    server: 104.18.34.159
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选32"
+    type: vless
+    server: 104.18.47.225
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选33"
+    type: vless
+    server: 172.64.148.52
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选34"
+    type: vless
+    server: 172.64.146.17
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选35"
+    type: vless
+    server: 172.64.158.68
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选36"
+    type: vless
+    server: 172.64.159.184
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选37"
+    type: vless
+    server: 104.18.47.192
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选38"
+    type: vless
+    server: 104.18.33.205
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选39"
+    type: vless
+    server: 172.64.153.92
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选40"
+    type: vless
+    server: 104.18.44.112
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选41"
+    type: vless
+    server: 172.64.158.179
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选42"
+    type: vless
+    server: 172.64.148.145
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选43"
+    type: vless
+    server: 172.64.144.220
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选44"
+    type: vless
+    server: 172.64.147.51
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选45"
+    type: vless
+    server: 104.18.35.203
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选46"
+    type: vless
+    server: 172.64.158.238
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选47"
+    type: vless
+    server: 172.64.153.209
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选48"
+    type: vless
+    server: 172.64.150.201
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选49"
+    type: vless
+    server: 104.18.47.28
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选50"
+    type: vless
+    server: 104.18.46.38
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选51"
+    type: vless
+    server: 172.64.155.171
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选52"
+    type: vless
+    server: 104.18.46.75
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选53"
+    type: vless
+    server: 104.18.37.139
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选54"
+    type: vless
+    server: 104.18.42.172
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选55"
+    type: vless
+    server: 104.18.34.9
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选56"
+    type: vless
+    server: 104.18.40.101
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选57"
+    type: vless
+    server: 172.64.153.31
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选58"
+    type: vless
+    server: 104.18.37.185
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选59"
+    type: vless
+    server: 104.18.44.214
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选60"
+    type: vless
+    server: 104.18.33.212
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选61"
+    type: vless
+    server: 172.64.158.188
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选62"
+    type: vless
+    server: 104.18.43.97
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选63"
+    type: vless
+    server: 172.64.149.71
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选64"
+    type: vless
+    server: 172.64.154.254
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选65"
+    type: vless
+    server: 172.64.157.129
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选66"
+    type: vless
+    server: 172.64.144.250
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选67"
+    type: vless
+    server: 104.18.34.80
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选68"
+    type: vless
+    server: 172.64.147.12
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选69"
+    type: vless
+    server: 104.18.35.52
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选70"
+    type: vless
+    server: 104.18.36.174
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选71"
+    type: vless
+    server: 172.64.153.38
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选72"
+    type: vless
+    server: 172.64.156.67
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选73"
+    type: vless
+    server: 172.64.148.171
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选74"
+    type: vless
+    server: 172.64.229.178
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选75"
+    type: vless
+    server: 172.64.151.94
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选76"
+    type: vless
+    server: 172.64.154.25
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选77"
+    type: vless
+    server: 104.18.36.246
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选78"
+    type: vless
+    server: 172.64.155.6
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选79"
+    type: vless
+    server: 104.18.41.36
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选80"
+    type: vless
+    server: 172.64.157.97
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选81"
+    type: vless
+    server: 104.18.33.9
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+  - name: "CF优选82"
+    type: vless
+    server: 104.18.36.2
+    port: 443
+    uuid: 3a2c1081-31b9-448a-8790-c6756c9389b9
+    network: ws
+    tls: true
+    servername: nanxia.jinzhengen.cc.cd
+    udp: true
+    flow: ""
+    ws-opts:
+      path: /
+      headers:
+        Host: nanxia.jinzhengen.cc.cd
+proxy-groups:
+  - name: "自动选择"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "CF优选1"
+      - "CF优选2"
+      - "CF优选3"
+      - "CF优选4"
+      - "CF优选5"
+      - "CF优选6"
+      - "CF优选7"
+      - "CF优选8"
+      - "CF优选9"
+      - "CF优选10"
+      - "CF优选11"
+      - "CF优选12"
+      - "CF优选13"
+      - "CF优选14"
+      - "CF优选15"
+      - "CF优选16"
+      - "CF优选17"
+      - "CF优选18"
+      - "CF优选19"
+      - "CF优选20"
+      - "CF优选21"
+      - "CF优选22"
+      - "CF优选23"
+      - "CF优选24"
+      - "CF优选25"
+      - "CF优选26"
+      - "CF优选27"
+      - "CF优选28"
+      - "CF优选29"
+      - "CF优选30"
+      - "CF优选31"
+      - "CF优选32"
+      - "CF优选33"
+      - "CF优选34"
+      - "CF优选35"
+      - "CF优选36"
+      - "CF优选37"
+      - "CF优选38"
+      - "CF优选39"
+      - "CF优选40"
+      - "CF优选41"
+      - "CF优选42"
+      - "CF优选43"
+      - "CF优选44"
+      - "CF优选45"
+      - "CF优选46"
+      - "CF优选47"
+      - "CF优选48"
+      - "CF优选49"
+      - "CF优选50"
+      - "CF优选51"
+      - "CF优选52"
+      - "CF优选53"
+      - "CF优选54"
+      - "CF优选55"
+      - "CF优选56"
+      - "CF优选57"
+      - "CF优选58"
+      - "CF优选59"
+      - "CF优选60"
+      - "CF优选61"
+      - "CF优选62"
+      - "CF优选63"
+      - "CF优选64"
+      - "CF优选65"
+      - "CF优选66"
+      - "CF优选67"
+      - "CF优选68"
+      - "CF优选69"
+      - "CF优选70"
+      - "CF优选71"
+      - "CF优选72"
+      - "CF优选73"
+      - "CF优选74"
+      - "CF优选75"
+      - "CF优选76"
+      - "CF优选77"
+      - "CF优选78"
+      - "CF优选79"
+      - "CF优选80"
+      - "CF优选81"
+      - "CF优选82"
+  - name: "手动选择"
+    type: select
+    proxies:
+      - "自动选择"
+      - "CF优选1"
+      - "CF优选2"
+      - "CF优选3"
+      - "CF优选4"
+      - "CF优选5"
+      - "CF优选6"
+      - "CF优选7"
+      - "CF优选8"
+      - "CF优选9"
+      - "CF优选10"
+      - "CF优选11"
+      - "CF优选12"
+      - "CF优选13"
+      - "CF优选14"
+      - "CF优选15"
+      - "CF优选16"
+      - "CF优选17"
+      - "CF优选18"
+      - "CF优选19"
+      - "CF优选20"
+      - "CF优选21"
+      - "CF优选22"
+      - "CF优选23"
+      - "CF优选24"
+      - "CF优选25"
+      - "CF优选26"
+      - "CF优选27"
+      - "CF优选28"
+      - "CF优选29"
+      - "CF优选30"
+      - "CF优选31"
+      - "CF优选32"
+      - "CF优选33"
+      - "CF优选34"
+      - "CF优选35"
+      - "CF优选36"
+      - "CF优选37"
+      - "CF优选38"
+      - "CF优选39"
+      - "CF优选40"
+      - "CF优选41"
+      - "CF优选42"
+      - "CF优选43"
+      - "CF优选44"
+      - "CF优选45"
+      - "CF优选46"
+      - "CF优选47"
+      - "CF优选48"
+      - "CF优选49"
+      - "CF优选50"
+      - "CF优选51"
+      - "CF优选52"
+      - "CF优选53"
+      - "CF优选54"
+      - "CF优选55"
+      - "CF优选56"
+      - "CF优选57"
+      - "CF优选58"
+      - "CF优选59"
+      - "CF优选60"
+      - "CF优选61"
+      - "CF优选62"
+      - "CF优选63"
+      - "CF优选64"
+      - "CF优选65"
+      - "CF优选66"
+      - "CF优选67"
+      - "CF优选68"
+      - "CF优选69"
+      - "CF优选70"
+      - "CF优选71"
+      - "CF优选72"
+      - "CF优选73"
+      - "CF优选74"
+      - "CF优选75"
+      - "CF优选76"
+      - "CF优选77"
+      - "CF优选78"
+      - "CF优选79"
+      - "CF优选80"
+      - "CF优选81"
+      - "CF优选82"
+rules:
+  - MATCH,自动选择
